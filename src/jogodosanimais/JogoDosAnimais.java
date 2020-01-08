@@ -10,7 +10,7 @@ public class JogoDosAnimais {
         Respostas R = new Respostas();
       
         
-        while ("sim".equals(R.getR18())) {
+        while ("sim".equalsIgnoreCase(R.getR18())) {
         System.out.println("-Pense em um animal:");
         R.setR1 (input.nextLine());
         System.out.println("-O animal que você pensou vive na água?");
@@ -25,11 +25,11 @@ public class JogoDosAnimais {
         R.setR6 (input.nextLine());
         System.out.println("-O animal que você pensou " + R.getR4() + "?(sim/não)");
         R.setR7 (input.nextLine());
-        if ("sim".equals(R.getR7())){
+        if ("sim".equalsIgnoreCase(R.getR7())){
             System.out.println("-O animal que você pensou é um(a) " + R.getR3() + "?(sim/não)");
             R.setR8 (input.nextLine());
         }
-        if ("sim".equals(R.getR7())){
+        if ("sim".equalsIgnoreCase(R.getR7())){
             System.out.println(R.getAcertei());
        
         }else {
@@ -47,10 +47,10 @@ public class JogoDosAnimais {
         R.setR13 (input.nextLine());
         System.out.println("-O animal que você pensou " + R.getR4() + "?(sim/não)");
         R.setR14 (input.nextLine()); 
-        if ("sim".equals(R.getR14())){
+        if ("sim".equalsIgnoreCase(R.getR14())){
             System.out.println("-O animal que você pensou é um(a)" + R.getR3() + "?(sim/não)");
             R.setR15 (input.nextLine());
-        }if ("sim".equals(R.getR14())){
+        }if ("sim".equalsIgnoreCase(R.getR14())){
             System.out.println(R.getAcertei());
         }else {
             System.out.println("-Qual animal você pensou?");
