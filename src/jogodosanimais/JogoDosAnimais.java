@@ -23,10 +23,10 @@ public class JogoDosAnimais {
         R.setR5 (input.nextLine());
         System.out.println("-O animal que você pensou vive na água?:");
         R.setR6 (input.nextLine());
-        System.out.println("-O animal que você pensou " + R.getR4() + "  ?(sim/não)");
+        System.out.println("-O animal que você pensou " + R.getR4() + "?(sim/não)");
         R.setR7 (input.nextLine());
         if ("sim".equals(R.getR7())){
-            System.out.println("-O animal que você pensou é um(a) " + R.getR3() + "  ?(sim/não)");
+            System.out.println("-O animal que você pensou é um(a) " + R.getR3() + "?(sim/não)");
             R.setR8 (input.nextLine());
         }
         if ("sim".equals(R.getR7())){
@@ -45,10 +45,10 @@ public class JogoDosAnimais {
         R.setR12 (input.nextLine());
         System.out.println("-O animal que você pensou vive na água?:");
         R.setR13 (input.nextLine());
-        System.out.println("-O animal que você pensou " + R.getR4() + "  ?(sim/não)");
+        System.out.println("-O animal que você pensou " + R.getR4() + "?(sim/não)");
         R.setR14 (input.nextLine()); 
         if ("sim".equals(R.getR14())){
-            System.out.println("-O animal que você pensou é um(a)" + R.getR3() + "  ?(sim/não)");
+            System.out.println("-O animal que você pensou é um(a)" + R.getR3() + "?(sim/não)");
             R.setR15 (input.nextLine());
         }if ("sim".equals(R.getR14())){
             System.out.println(R.getAcertei());
